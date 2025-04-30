@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - FitGear Hub</title>
+    <link rel="stylesheet" href="/CSS/blog.css">
+    <link rel="icon" type="image/png" href="/IMAGENES/logo.png">
+
+</head>
+<body>
+
+    <header>
+        <h1>FitGear Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="/HTML/index.html">Inicio</a></li>
+                <li class="submenu-padre">
+                    <a href="/HTML/tienda.html">Tienda</a>
+                    <ul class="submenu">
+                        <li><a href="/HTML/productos.html" id="mostrar-productos">Productos</a></li>
+                        <li><a href="/HTML/ofertas.html" id="mostrar-ofertas">Ofertas</a></li>
+                    </ul>
+                </li>
+                <li class="submenu-padre">
+                    <a href="/HTML/servicios.html">Servicios</a>
+                    <ul class="submenu">
+                        <li><a href="/HTML/actividades.html">Actividades</a></li>
+                        <li><a href="/HTML/horario.html">Horario</a></li>
+                    </ul>
+                </li>
+                <li class="submenu-padre">
+                    <a href="/HTML/comunidad.html">Comunidad</a>
+                    <ul class="submenu">
+                        <li><a href="/HTML/blog.html">Blog</a></li>
+                        <li><a href="/HTML/unete.html">Únete</a></li>
+                        <li><a href="/HTML/miembros.html">Miembros</a></li>
+                    </ul>
+                </li>
+                <li class="submenu-padre">
+                    <a href="#">Más</a>
+                    <ul class="submenu">
+                        <li><a href="/HTML/contacto.html">Contacto</a></li>
+                        <li><a href="/HTML/tablon.html">Tablón</a></li>
+                        <li><a href="/HTML/galeria.html">Galería</a></li>
+                        <li><a href="/HTML/equipo.html">Equipo</a></li>
+                        <li><a href="/HTML/ranking.html">Ranking</a></li>
+                        <li><a href="/HTML/juegos.html">Juegos</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contenido-blog">
+            <h2>Blog de FitGear Hub</h2>
+
+            <div class="contenido-principal">
+                <article class="blog-item">
+                    <img src="/IMAGENES/Plan principiantes.jpg" alt="Entrenamiento para principiantes">
+                    <h3>Entrenamientos efectivos para principiantes</h3>
+                    <p>Si estás comenzando en el mundo del fitness, aquí tienes algunos ejercicios básicos para empezar con buen pie. Te ayudaremos a crear una rutina que puedas seguir sin sentirte abrumado.</p>
+                    <a href="detalle-articulo1.html" class="leer-mas">Leer más</a>
+                </article>
+
+                <article class="blog-item">
+                    <img src="/IMAGENES/consejos nutricion.png" alt="Consejos de nutrición para masa muscular">
+                    <h3>Los mejores consejos de nutrición para aumentar masa muscular</h3>
+                    <p>Descubre qué alimentos son clave para tu crecimiento muscular y cómo planificar tus comidas para obtener mejores resultados en el gimnasio.</p>
+                    <a href="detalle-articulo2.html" class="leer-mas">Leer más</a>
+                </article>
+
+                <article class="blog-item">
+                    <img src="/IMAGENES/Estancamiento.png" alt="Superar el estancamiento en el fitness">
+                    <h3>Cómo superar los estancamientos en tu progreso fitness</h3>
+                    <p>¿Sientes que no avanzas en tu entrenamiento? Te damos algunos trucos para salir de esa etapa y continuar viendo resultados.</p>
+                    <a href="detalle-articulo3.html" class="leer-mas">Leer más</a>
+                </article>
+            </div>
+
+            <aside class="barra-lateral">
+                <h3>Artículos Populares</h3>
+                <ul>
+                    <li><a href="detalle-articulo4.html">5 rutinas para tonificar en casa</a></li>
+                    <li><a href="detalle-articulo5.html">La importancia de la hidratación en el ejercicio</a></li>
+                    <li><a href="detalle-articulo6.html">Como conseguir puntos en EvolucionFit</a></li>
+                </ul>
+
+              
+
+                <h3>Últimos comentarios</h3>
+                <ul>
+                    <li>"Gran artículo sobre nutrición, me ha ayudado mucho." - Carlos</li>
+                    <li>"La rutina de entrenamiento es muy buena, gracias por compartirla." - Marta</li>
+                    <li>"Espero seguir este consejo y evitar estancarme en mis progresos." - José</li>
+                </ul>
+            </aside>
+        </section>
+
+        <section class="comentarios">
+            <h2>Deja tu comentario</h2>
+            <form action="https://formspree.io/f/mrbpeqlg" method="post">
+                <textarea name="comentario" placeholder="Escribe tu comentario..." rows="4"></textarea>
+                <button type="submit" class="btn-comentar">Comentar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 FitGear Hub. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
