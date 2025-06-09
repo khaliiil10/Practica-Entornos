@@ -1,14 +1,14 @@
-# Practica-Entornos
+Practica-Entornos
 
-# 🏋️ EvoluciónFit
+ 🏋️ EvoluciónFit
 
 **EvoluciónFit** es un proyecto web completo diseñado para un gimnasio moderno que busca ofrecer una experiencia única a sus usuarios tanto presencial como digitalmente. Esta plataforma incluye información sobre actividades, retos fitness, productos personalizados, estadísticas y mucho más.
 
-## 🎯 Objetivo
+ 🎯 Objetivo
 
 El objetivo principal de EvoluciónFit es mejorar la motivación y el compromiso de los usuarios mediante un entorno web interactivo y visualmente atractivo, con elementos de gamificación, retos personales y seguimiento del progreso.
 
-## 📁 Secciones principales
+ 📁 Secciones principales
 
 - **Inicio:** Presentación del gimnasio y su filosofía.
 - **Actividades:** Listado de clases y horarios disponibles.
@@ -20,7 +20,7 @@ El objetivo principal de EvoluciónFit es mejorar la motivación y el compromiso
 - **Blog y Galería:** Consejos, fotos y novedades.
 - **Únete y Contacto:** Formularios para nuevos miembros y dudas.
 
-## 🛠️ Tecnologías utilizadas
+🛠️ Tecnologías utilizadas
 
 - HTML5 y CSS3
 - JavaScript
@@ -29,10 +29,10 @@ El objetivo principal de EvoluciónFit es mejorar la motivación y el compromiso
 - Formularios con validación
 - FormPress (para gestión de formularios)
 
-## 👨‍💻 Estado del proyecto
+👨‍💻 Estado del proyecto
 
 Proyecto en desarrollo como parte del módulo de **Desarrollo de Aplicaciones Web (DAW)**. Enfocado en la accesibilidad, usabilidad y diseño moderno.
 
----
+
 
 ¡Bienvenido a la evolución del fitness!
